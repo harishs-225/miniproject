@@ -1,0 +1,90 @@
+
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner bg-dark">
+      
+     
+      <div class="carousel-item active" data-bs-interval="2000">
+        
+        <img src="{{database[0].image}}" class="d-block w-100" alt="...">
+        <div class="carousel-caption">
+          <div class="content">
+            <a routerLink="musicalinstrument">SHOP NOW <i class="bi bi-arrow-right"></i></a></div>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="{{database[1].image}}" class="d-block w-100" alt="...">
+        <div class="carousel-caption">
+          <div class="content">
+            <a routerLink="musicalinstrument">SHOP NOW <i class="bi bi-arrow-right"></i></a></div>
+        </div>
+      </div>
+      <div class="carousel-item"data-bs-interval="2000">
+        <img src="{{database[2].image}}" class="d-block w-100" alt="...">
+        <div class="carousel-caption">
+          <div class="content">
+            <a routerLink="musicalinstrument">SHOP NOW <i class="bi bi-arrow-right"></i></a></div>
+        </div>
+      </div>
+      <div class="carousel-item"data-bs-interval="2000">
+        <img src="{{database[3].image}}" class="d-block w-100" alt="...">
+        <div class="carousel-caption">
+          <div class="content">
+          <a routerLink="musicalinstrument">SHOP NOW <i class="bi bi-arrow-right"></i></a></div>
+          </div>
+     </div>
+    </div>
+  </div>
+
+  <div class="container mt-5 mb-5">
+    <h1 class="text-center">how to get <span class="highlight">Instruments</span></h1>
+     <div class="row mt-5">
+      <div class="col-lg-4 mt-2">
+        <div class="stepBox">
+          <h1>1</h1>
+          <p>select instrument</p>
+        </div>
+      </div>
+      <div class="col-lg-4 mt-2">
+        <div class="stepBox">
+          <h1>2</h1>
+          <p>fill the details</p>
+        </div>
+        </div>
+        <div class="col-lg-4 mt-2">
+          <div class="stepBox">
+            <h1>3</h1>
+          <p>your order delivery </p>
+          </div>
+  </div>
+  </div>
+  </div>
+
+ <div class="container mt-4 mb-4">
+  <h1 class="text-center mt-3">New <span class="highlight">Products</span></h1>
+  
+</div>
+ <div class="container">
+  <div class="row">
+    <div class="col-lg-3" *ngFor="let music of musicaldata">
+      <div class="musicbox">
+     <img src="{{music.image1}}">
+     <h1>{{music.name}}</h1>
+     <p>{{music.price}}</p>
+
+      </div>
+  
+    </div>
+  </div>
+  <br>
+  <a routerLink="musicalinstrument" class="viewmorebtn">view more <i class="bi bi-arrow-right"></i></a>
+</div>  
+
+ 
+
+
+
+
+ 
+
+
+

@@ -1,0 +1,14 @@
+.card-img-top:hover{
+    transform: scale(1.05);
+
+}
+.card img{
+    width:100%;
+    height:30vh;
+    object-fit: cover;
+}
+
+.pt-4{
+    padding-bottom: 2.5rem;
+    
+}

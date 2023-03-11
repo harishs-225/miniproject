@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "new-project-285c5": {
+      "hosting": {
+        "new-project": [
+          "new-project-285c5"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "new-project-285c5"
+  }
+}

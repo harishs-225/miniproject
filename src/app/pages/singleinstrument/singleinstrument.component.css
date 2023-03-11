@@ -1,0 +1,12 @@
+.btn{
+   position: relative;
+  left: 700px;  
+  background-color:green;
+}
+
+.container{
+    background-size: cover;
+}
+.btn:hover{
+  color: antiquewhite;
+}

@@ -1,0 +1,89 @@
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="https://images.unsplash.com/photo-1506193635280-b7e8058ac0f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bXVzaWNhbCUyMGluc3RydW1lbnQlMjBsb2dvJTIwYmxhY2t8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="logo" />
+      
+</a>
+<a class="navbar-brand" href="#">ZZounds
+  <h1>Bring Music To Life...</h1>
+</a>
+
+<style>
+  h1{
+     font-size: 80%;
+     width: 100%;
+     height: 100%;
+    font-style: italic;
+   color:greenyellow;
+   background-position: center top;
+   background-size:cover;
+  }
+  
+</style>
+    
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ms-auto">
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search"placeholder="Search..." aria-label="Search" [(ngModel)]="searchKey" (keyup)="search($event)" name="search">
+        </form>
+        justify-Content:space-between
+
+        <a class="nav-link active" routerLink=""><i class="bi bi-house-door-fill"></i> Home</a>
+        
+
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Musical Instruments</span>
+          </a>
+          <ul class="dropdown-menu">
+            <li>
+              <a class="dropdown-item" routerLink="keyboard"
+                >Keyboards</a>
+            </li>
+            <li>
+              <a class="dropdown-item" routerLink="drums"
+                >Drums</a>
+            </li>
+            <li>
+              <a class="dropdown-item" routerLink="digitalpiano"
+                >Digital Pianos</a>
+            </li>
+            <li>
+              <a class="dropdown-item" routerLink="guitar"
+                >Guitars</a>
+            </li>
+
+
+            <li><hr class="dropdown-divider" /></li>
+          </ul>
+        </li>
+        <div *ngIf="(isLoggedIn$ | async ) === false">
+        <a class="nav-link" routerLink="login">Login</a>
+      </div>
+      <div *ngIf="(isLoggedIn$ | async ) === true">
+        <a class="nav-link" (click)="logout()">Logout</a>
+      </div>
+        <a class="nav-link" routerLink="signup">Signup</a>
+        <a class="nav-link" routerLink="contactus">Contact Us</a>
+      </div>
+    </div>
+  </div>
+  
+</nav>

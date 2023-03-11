@@ -1,0 +1,39 @@
+  .nav-link{
+    color: white;
+}
+
+
+.nav-link:hover{
+    color:lightgreen;
+   font-weight: bold;
+}  
+  .navbar-brand{ 
+    font-weight: bold;
+    color:yellowgreen;
+    /* size: 20px; */
+  }    
+
+.navbar-brand img{
+    height: 80px;
+    width: 80px;
+    border-radius: 80%;
+    
+   
+}
+.dropdown-item:hover{
+    color: lightgreen;
+
+}
+.nav-link:hover{
+    color: lightgreen;
+     text-decoration: underline;
+     cursor: pointer;
+}
+
+.navbar-brand {
+ 
+  color:goldenrod;
+ 
+
+  }
+  

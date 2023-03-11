@@ -1,0 +1,31 @@
+<div class="container-fluid" style="background-image: url('https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fD8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80')">
+  <div class="container">
+  <div class="row">
+        <div class="col-lg-4 pt-4" *ngFor="let guitar of guitardata | filter:searchText">
+            <div class="card" style="width: 18rem;">
+  
+             <img src="{{guitar.image1}}" class="card-img-top" alt="...">  
+              <div class="card-body">
+                <h5 class="card-title">{{guitar.name}}</h5>
+                <p class="card-text">{{guitar.details}}</p>
+                <div class="card-body">
+                    <h5 class="card-title text-success">
+                      <p class="card-text">{{guitar.price}}</p>
+                      <span class="text-primary"> </span>
+                    </h5>
+                    
+                  </div>
+                <a (click)="goto(guitar.type, guitar.id)"  class="btn btn-primary">Buy Now <i class="bi bi-bag"></i></a>
+  
+  
+                
+  
+  
+              </div>
+  
+        </div>
+  </div>
+</div>
+</div>
+</div>
+

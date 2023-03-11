@@ -1,0 +1,178 @@
+<!-- <div class="container">
+<div class="row">
+
+<div class="col-lg-4 pt-4">
+  <div class="card" style="width: 18rem">
+    <img
+      src="https://usa.yamaha.com/files/Image-Index_PSR-EW425_900x900_e37202d54a4fae4a58ecfc33796b1acf.jpg?impolicy=resize&imwid=396&imhei=396"
+      alt=""
+      class="card-img-top"
+      class="card-img-top"
+      alt="..."
+    />
+    <div class="card-body">
+      <h5 class="card-title">yamaha PSR-EW400</h5>
+      <p class="card-text">76 key portable keyboard</p>
+
+      <div class="card-body">
+        <h5 class="card-title text-success">
+          MRP 24,990
+          <span class="text-primary"> </span>
+        </h5>
+        <h6
+          class="card-subtitle my-2 text-danger text-decoration-line-through"
+        >
+          MRP 28,999
+        </h6>
+      </div>
+      <div class="card-footer d-grid gap-2">
+        <a href="#" class="btn btn-primary">Add to Cart</a>
+      </div>
+    </div>
+    </div>
+  </div> 
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+  
+  <div class="col-lg-4 pt-4">
+    <div class="card" style="width: 18rem">
+      <img
+        src="https://usa.yamaha.com/files/Image-Index_PSR-EW425_900x900_e37202d54a4fae4a58ecfc33796b1acf.jpg?impolicy=resize&imwid=396&imhei=396"
+        alt=""
+        class="card-img-top"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">yamaha PSR-EW400</h5>
+        <p class="card-text">76 key portable keyboard</p>
+  
+        <div class="card-body">
+          <h5 class="card-title text-success">
+            MRP 24,990
+            <span class="text-primary"> </span>
+          </h5>
+          <h6
+            class="card-subtitle my-2 text-danger text-decoration-line-through"
+          >
+            MRP 28,999
+          </h6>
+        </div>
+        <div class="card-footer d-grid gap-2">
+          <a href="#" class="btn btn-primary">Add to Cart</a>
+        </div>
+      </div>
+      </div>
+    </div> 
+   </div>
+   </div> -->
+
+<div class="container-fluid" style="background-image:url('https://images.unsplash.com/photo-1561390713-b08f7fe46f58?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bXVzaWNhbCUyMGluc3RydW1lbnQlMjBiYWNrZ3JvdW5kJTIwaW1hZ2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');" >
+  <div class="row">
+      <div class="col-lg-4 pt-4" *ngFor="let music of musicaldata | filter:searchText">
+          <div class="card" style="width: 18rem;">
+
+           <img src="{{music.image1}}" class="card-img-top" alt="...">  
+            <div class="card-body">
+              <h5 class="card-title">{{music.name}}</h5>
+              <p class="card-text">{{music.details}}</p>
+              <p class="card-text">{{music.price}}</p>
+              <a  (click)="goto(music.type, music.id)" class="btn btn-primary">Buy Now <i class="bi bi-bag"></i></a>
+
+
+              
+
+
+            </div>
+
+      </div>
+</div>
+
+<div class="col-lg-4 pt-4">
+<div class="card" style="width: 18rem;">
+  <img
+        src="https://cdn.shopify.com/s/files/1/0657/6821/products/FEN-0149953500_large.jpg?v=1635245807"
+        alt=""
+        class="card-img-top"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">Bass Guitar</h5>
+        <p class="card-text">Fender player jazz bass v</p>
+        <p class="card-text">₹85000</p>
+        <a  class="btn btn-primary">Buy Now <i class="bi bi-bag"></i></a>
+
+  
+
+
+</div>
+  </div>
+</div>
+<div class="col-lg-4 pt-4">
+  <div class="card" style="width: 18rem;">
+    <img
+          src="https://cdn.shopify.com/s/files/1/0657/6821/products/FEN-0149953500_large.jpg?v=1635245807"
+          alt=""
+          class="card-img-top"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Bass Guitar</h5>
+          <p class="card-text">Fender player jazz bass v</p>
+          <p class="card-text">₹85000</p>
+          <a  class="btn btn-primary">Buy Now <i class="bi bi-bag"></i></a>
+  
+    
+
+</div>
+</div>
+</div>
+<div class="col-lg-4 pt-4">
+<div class="card" style="width: 18rem;">
+  <img
+        src="https://cdn.shopify.com/s/files/1/0657/6821/products/FEN-0149953500_large.jpg?v=1635245807"
+        alt=""
+        class="card-img-top"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">Bass Guitar</h5>
+        <p class="card-text">Fender player jazz bass v</p>
+        <p class="card-text">₹85000</p>
+        <a  class="btn btn-primary">Buy Now <i class="bi bi-bag"></i></a>
+
+  
+
+</div>
+</div>
+</div>
+<div class="col-lg-4 pt-4">
+<div class="card" style="width: 18rem;">
+  <img
+        src="https://www.stars-music.com/medias/roland/spd-sx-pds-10-pad-stand-hd-169541.jpg"
+        alt=""
+        class="card-img-top"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">Roland SPD-SX Sampling Pad</h5>
+        <p class="card-text"> Stand, and Drum Triggers Kit</p>
+        <p class="card-text">₹85000</p>
+        <a  class="btn btn-primary">Buy Now <i class="bi bi-bag"></i></a>
+
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+

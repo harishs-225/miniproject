@@ -1,0 +1,125 @@
+<!-- <div class="container-fluid" style="background-image:url('https://images.unsplash.com/photo-1525869811964-53594bfcb4b0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80'); height: 100vh;">
+<form class="row g-3">
+    <div class="col-md-6">
+      <label for="inputEmail4" class="form-label">Email</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="col-md-6">
+      <label for="inputPassword4" class="form-label">Password</label>
+      <input type="password" class="form-control" id="inputPassword4">
+    </div>
+
+    <div class="col-12">
+      <label for="inputAddress" class="form-label">Address</label>
+      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+    </div>
+    <div class="col-12">
+      <label for="inputAddress2" class="form-label">Address 2</label>
+      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+    </div>
+    <div class="col-md-6">
+      <label for="inputCity" class="form-label">City</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="col-md-6">
+      <label for="inputState" class="form-label">State</label>
+      <select id="inputState" class="form-select">
+        <option selected>Choose...</option>
+        <option>KERALA</option>
+      </select>
+    </div>
+    <div class="col-md-6">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck">
+        <label class="form-check-label" for="gridCheck">
+          Check me out
+        </label>
+      </div>
+    </div>
+    <div class="col-md-12">
+      <button type="submit" (click)="signUp()" class="btn btn-primary">SignUP</button>
+    </div>
+  </form>
+</div> -->
+
+
+<section
+  class="header"
+  style="background-image: url(https://images.unsplash.com/photo-1677844003343-1caedd837dd4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);height: 100vh;"
+>
+   <div class="mask" style="background-color: rgba(14, 14, 14, 0.7)"> 
+    <div class="container py-4 h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+          <div class="card shadow-2-strong bg-dark" style="border-radius: 1rem">
+            <div class="card-body p-5 text-center" style="color: aliceblue;">
+              <h3 class="mb-5">Sign Up</h3>
+              <form>
+                <div class="form-outline mb-4">
+                  <input
+                    name="name"
+                    placeholder="Full Name"
+                    [(ngModel)]="Name"
+                    type="text"
+                    class="form-control form-control-lg"
+                    
+                  />
+
+                  <br>
+                  <!-- <label class="form-label" for="name">Username</label> -->
+
+                  <input
+                  name="email"
+                  placeholder="Email"
+                  [(ngModel)]="emailUp"
+                  type="email"
+                  class="form-control form-control-lg"
+                  
+                    
+                  />
+
+                  <br>
+                  <!-- <label class="form-label" for="email">Email</label> -->
+
+                  <input
+                  name="password"
+                  placeholder="Password"
+                  [(ngModel)]="passwordUp"
+                  type="password"
+                  class="form-control form-control-lg"
+                  
+                    
+                  />
+
+                  <br>
+                  <!-- <label class="form-label" for="password">Password</label> -->
+
+                  <input
+                  name="cpassword"
+                  placeholder="Confirm Password"
+                  [(ngModel)]="cpasswordUp"
+                  type="password"
+                  class="form-control form-control-lg"
+                  
+                    
+                  />
+
+                  <br>
+                  <!-- <label class="form-label" for="password"
+                    >Reenter Password</label
+                  > -->
+                </div>
+
+                <button (click)="signUp()" class="btn btn-primary btn-lg btn-block" type="submit">
+                  Signup
+                </button>
+
+                
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
