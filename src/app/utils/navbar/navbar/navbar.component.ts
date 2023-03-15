@@ -26,6 +26,7 @@ export class NavbarComponent implements OnInit {
     this.searchKey = (e.target as HTMLInputElement).value
     // console.log(this.searchKey);
     this.api.search.next(this.searchKey)
+    // console.log(this.searchKey);
     
   }
 

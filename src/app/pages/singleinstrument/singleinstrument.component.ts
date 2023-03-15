@@ -37,7 +37,9 @@ export class SingleinstrumentComponent {
     this.s= this.single.filter((e:{id: string | null})=> e.id === id);
   }
   if(name==='musicali'){
-    this.single=this.hero.getmusicalData();
+    this.single=this.hero.getmusicalData1();
+    this.s= this.single.filter((e:{id: string | null})=> e.id === id);
+
   }
   this.vdoUrl = "https://www.youtube.com/embed/"
 }

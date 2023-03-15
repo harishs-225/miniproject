@@ -20,7 +20,7 @@
     {
         "id":"3",
         "name":"Donner DEP-45 Digital Piano",
-        "details":"Ultrathin with 1.6 Inch Piano Bench, Beginner Electric Piano Keyboard with 88 semi-weighted Keys.",
+        "details":"Ultrathin with 1.6 Inch Piano Bench.",
     
         "price":"₹15999 (icl. of all taxes)",
         "image1":"https://5.imimg.com/data5/SELLER/Default/2023/2/EB/ML/MM/185183902/s-l1600-37--500x500.jpg"
@@ -136,7 +136,41 @@
      "image1": "https://www.casio.com/content/dam/casio/product-info/locales/in/en/emi/product/C/CT/CTS/CT-S1RD/assets/CT-S1RD_Seq1.jpg.transform/main-visual-pc/image.jpg",
      "image2": "https://casiomusic.com.au/wp-content/uploads/2021/04/CT-S1RD.jpg",
      "yvdo":"zS1k8SrTc5w"
+  },
+  {
+    "id": "7",
+    "name": "Plixio 61-Key Digital Electric Keyboard ",
+    "type": "keyboard",
+    "details": "Plixio's 61 key keyboard is lightweight and portable",
+    "description": "DUAL POWER SUPPLY FOR ON-THE-GO PLAY: Customize the sounds of your music keyboard and play along with your favorite songs. Musicians that frequently travel can also utilize the dual power supply by using the included power adapter or 6 AA batteries for on-the-go practice.<br>VARIETY OF SOUND EFFECTS AND MICROPHONE JACK: Each keyboard features 100 rhythms, 60 demo songs, 40 tones, 8 percussions, and volume or tempo control. Grab a microphone (not included) and turn your keyboard into a karaoke machine! Please note this keyboard does not include a USB port.",
+    "price": "₹7863",
+    "image1": "https://5.imimg.com/data5/SELLER/Default/2022/7/OS/QY/FV/97262289/71fonlo0ill-sl1453--500x500.jpg",
+    "image2": "https://images-cdn.ubuy.co.in/633b68fcd725343a9e4c46b2-plixio-61-key-digital-electric-piano.jpg",
+    "yvdo":"oddN8jUeq34"
+  },
+  {
+    "id": "8",
+    "name": "MAX KB1 - Digital Piano Keyboard",
+    "type": "keyboard",
+    "details": "The KB1 is an electronic keyboard with 61 keys. The keyboard has a built-in 3 step learning system. ",
+    "description": "Thanks to its compact size, the portable keyboard can be easily taken anywhere. Since the keyboard works not only in mains operation, but also in battery operation, you can use it anywhere Perfect for children or beginners. With 61 keys (5 octaves) and 3 levels training function. The keyboard has 24 demo songs, 255 timbres and 255 rhythms",
+    "price": "₹6500",
+    "image1": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/711a6SBF5TL._AC_SX466_.jpg",
+    "image2": "https://surplustronics.co.nz/product/130.100/20505-original.jpg?1604551615",
+    "yvdo":"D-9_W4I63pw"
+  },
+  {
+    "id": "9",
+    "name": "MK-7000 Keyboard with USB ",
+    "type": "keyboard",
+    "details": "The MK7000 portable keyboard by Gear4music is a complete performance tool for beginners. ",
+    "description": "Featuring 61 full size, touch sensitive keys, the MK7000 makes swapping between this and an acoustic piano really easy. The 200 different sounds, 128 rhythms and a host of songs create a full ensemble. Combining this with a record and playback function, you can experiment to the max.The MK-7000 keyboard is a great instrument for beginners that switch between a keyboard for home practice and an acoustic piano for lessons and rehearsals. Featuring keys the same size as acoustic piano keys, you don't have to adjust your hand span between instruments, thus making it easier to learn. The waterfall style keys have a larger depth in to the key bed, making it easier to play quicker passages and glissandi.",
+    "price": "₹12,400",
+    "image1": "https://i.ebayimg.com/images/g/tucAAOSwEJ1cLgza/s-l640.jpg",
+    "image2": "https://m.media-amazon.com/images/S/aplus-media/sc/be2d76ef-7782-43d8-a5bc-d9840725381b.__CR0,0,970,600_PT0_SX970_V1___.png",
+    "yvdo":"MLZircXgMyI"
   }
+
 
   
   ]
@@ -301,7 +335,7 @@ export const guitardata=[
     "details": "Dreadnought Acoustic Guitar, Natural",
     "price": "₹31,368.74(incl. of all taxes)",
     "image1": "https://cdn11.bigcommerce.com/s-97c0z6ew/images/stencil/1280x1280/products/801/10894/GD30LHNAThqpstraight__08569.1500397659.jpg?c=2",
-    "image2": "https://www.denismusique.com//img/product/GD30LH-NAT-sca1-1200-B.jpg",
+    "image2": "https://cdn.shoplightspeed.com/shops/629365/files/52127719/1024x1024x2/takamine-takamine-gd30-acoustic-guitar-left-handed.jpg",
     "yvdo":"uR1lahdl_Fw"
   },
   {
@@ -366,21 +400,7 @@ export const guitardata=[
 
   }
 ]
-  export const musicaldata1=[
-    {
-      "id": "1",
-      "name": "",
-      "type": "musicaldata",
-      "description": "",
-      "details": "",
-      "price": "",
-      "image1":"",
-      "image2":"",
-      "yvdo":"cWWdU1le1I0"
-
-    }
-  ]
-
+ 
   
 
 

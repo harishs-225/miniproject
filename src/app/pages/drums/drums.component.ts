@@ -14,9 +14,11 @@ export class DrumsComponent {
  
   ngOnInit():void {
     this.drumdata=this.hero.getdrumData()
-    console.log(this.drumdata);
+    
+  }
 
-}
+
+
 goto(name:any,id:any) {
   localStorage.setItem('name',name);
   localStorage.setItem('id', id);
@@ -25,3 +27,4 @@ goto(name:any,id:any) {
   this.router.navigate(['singleinstrument']);
 }
 }
+

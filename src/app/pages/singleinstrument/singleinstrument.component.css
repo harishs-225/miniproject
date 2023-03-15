@@ -10,3 +10,18 @@
 .btn:hover{
   color: antiquewhite;
 }
+.flex-box{
+  display: flex;
+  padding: 30px 30px;
+  justify-content: center;
+}
+.container h3{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: small;
+  font-weight: lighter;
+
+}
+.container p{
+  font-size: medium;
+  font-weight: bold;
+}

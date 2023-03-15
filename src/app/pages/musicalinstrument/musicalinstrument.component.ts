@@ -16,8 +16,13 @@ export class MusicalinstrumentComponent {
   musicaldata1:any;
   ngOnInit():void{
    this.musicaldata=this.hero.getmusicalData()
+   console.log("kjjkjhgfd");
    
-
+   this.hero.search.subscribe(val => {
+    this.searchText=val
+    console.log(val);
+    
+   })
 
   }
   goto(name:any,id:any) {
