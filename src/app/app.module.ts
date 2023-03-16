@@ -14,7 +14,7 @@ import { SingleinstrumentComponent } from './pages/singleinstrument/singleinstru
 import { FooterComponent } from './pages/footer/footer.component';
 import { DrumsComponent } from './pages/drums/drums.component';
 import { KeyboardComponent } from './pages/keyboard/keyboard.component';
-import { DigiatalpianoComponent } from './pages/digiatalpiano/digiatalpiano.component';
+// import { DigiatalpianoComponent } from './pages/digiatalpiano/digiatalpiano.component';
 import { GuitarComponent } from './pages/guitar/guitar.component';
 import { DigitalpianoComponent } from './pages/digitalpiano/digitalpiano.component';
 import { SafePipe } from './safe.pipe';
@@ -41,7 +41,7 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter';
     FooterComponent,
     DrumsComponent,
     KeyboardComponent,
-    DigiatalpianoComponent,
+    // DigiatalpianoComponent,
     GuitarComponent,
     DigitalpianoComponent,
     SafePipe,

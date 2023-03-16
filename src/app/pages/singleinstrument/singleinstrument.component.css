@@ -15,13 +15,18 @@
   padding: 30px 30px;
   justify-content: center;
 }
-.container h3{
+.h3{
   font-family: 'Times New Roman', Times, serif;
-  font-size: small;
-  font-weight: lighter;
-
+  font-size: medium;
+  font-weight: bolder;
+ font-style: italic;
 }
 .container p{
   font-size: medium;
   font-weight: bold;
+}
+.h4{
+font-family: 'Times New Roman', Times, serif;
+font-size: small;
+font-weight: lighter;
 }

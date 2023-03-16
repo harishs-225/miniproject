@@ -143,7 +143,7 @@
     "type": "keyboard",
     "details": "Plixio's 61 key keyboard is lightweight and portable",
     "description": "DUAL POWER SUPPLY FOR ON-THE-GO PLAY: Customize the sounds of your music keyboard and play along with your favorite songs. Musicians that frequently travel can also utilize the dual power supply by using the included power adapter or 6 AA batteries for on-the-go practice.<br>VARIETY OF SOUND EFFECTS AND MICROPHONE JACK: Each keyboard features 100 rhythms, 60 demo songs, 40 tones, 8 percussions, and volume or tempo control. Grab a microphone (not included) and turn your keyboard into a karaoke machine! Please note this keyboard does not include a USB port.",
-    "price": "₹7863",
+    "price": "₹7863 (icl. of all taxes)",
     "image1": "https://5.imimg.com/data5/SELLER/Default/2022/7/OS/QY/FV/97262289/71fonlo0ill-sl1453--500x500.jpg",
     "image2": "https://images-cdn.ubuy.co.in/633b68fcd725343a9e4c46b2-plixio-61-key-digital-electric-piano.jpg",
     "yvdo":"oddN8jUeq34"
@@ -154,7 +154,7 @@
     "type": "keyboard",
     "details": "The KB1 is an electronic keyboard with 61 keys. The keyboard has a built-in 3 step learning system. ",
     "description": "Thanks to its compact size, the portable keyboard can be easily taken anywhere. Since the keyboard works not only in mains operation, but also in battery operation, you can use it anywhere Perfect for children or beginners. With 61 keys (5 octaves) and 3 levels training function. The keyboard has 24 demo songs, 255 timbres and 255 rhythms",
-    "price": "₹6500",
+    "price": "₹6500 (icl. of all taxes)",
     "image1": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/711a6SBF5TL._AC_SX466_.jpg",
     "image2": "https://surplustronics.co.nz/product/130.100/20505-original.jpg?1604551615",
     "yvdo":"D-9_W4I63pw"
@@ -165,7 +165,7 @@
     "type": "keyboard",
     "details": "The MK7000 portable keyboard by Gear4music is a complete performance tool for beginners. ",
     "description": "Featuring 61 full size, touch sensitive keys, the MK7000 makes swapping between this and an acoustic piano really easy. The 200 different sounds, 128 rhythms and a host of songs create a full ensemble. Combining this with a record and playback function, you can experiment to the max.The MK-7000 keyboard is a great instrument for beginners that switch between a keyboard for home practice and an acoustic piano for lessons and rehearsals. Featuring keys the same size as acoustic piano keys, you don't have to adjust your hand span between instruments, thus making it easier to learn. The waterfall style keys have a larger depth in to the key bed, making it easier to play quicker passages and glissandi.",
-    "price": "₹12,400",
+    "price": "₹12,400 (icl. of all taxes)",
     "image1": "https://i.ebayimg.com/images/g/tucAAOSwEJ1cLgza/s-l640.jpg",
     "image2": "https://m.media-amazon.com/images/S/aplus-media/sc/be2d76ef-7782-43d8-a5bc-d9840725381b.__CR0,0,970,600_PT0_SX970_V1___.png",
     "yvdo":"MLZircXgMyI"
@@ -252,7 +252,7 @@ export const digidata=[
     "id": "1",
      "name": " CASIO CELVIANO AP-470BK ",
      "type": "piano",
-      "description": "Features:<br><br>The characteristics of CASIO’s newly developed Multi-dimensional Morphing AiR*Sound Source reflect thorough attention to detail in expressing the rich, resonating tones inherent to the piano. The capacity of the installed memory has been expanded to achieve a longer sampling duration and enhanced waveform data quality. The temporal changes in tone that create sound you would expect only from a piano, beginning with the initial sound and leading into a beautiful extension until the sound eventually vanishes, are reproduced naturally.",
+      "description": "Features:The characteristics of CASIO’s newly developed Multi-dimensional Morphing AiR*Sound Source reflect thorough attention to detail in expressing the rich, resonating tones inherent to the piano. The capacity of the installed memory has been expanded to achieve a longer sampling duration and enhanced waveform data quality. The temporal changes in tone that create sound you would expect only from a piano, beginning with the initial sound and leading into a beautiful extension until the sound eventually vanishes, are reproduced naturally.",
 
      "details": "Tri-sensor Scaled Hammer Action Keyboard II ・20W＋20W (2-Way, 4-Speaker)",
      "price": "₹89,995(incl. of all taxes)",
@@ -401,6 +401,4 @@ export const guitardata=[
   }
 ]
  
-  
-
 

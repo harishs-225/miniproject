@@ -1,9 +1,10 @@
 
 <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner bg-dark">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        
       
-     
-      <div class="carousel-item active" data-bs-interval="2000">
+      <div class="carousel-item active" data-bs-interval="1000">
         
         <img src="{{database[0].image}}" class="d-block w-100" alt="...">
         <div class="carousel-caption">
@@ -11,29 +12,41 @@
             <a routerLink="musicalinstrument">SHOP NOW <i class="bi bi-arrow-right"></i></a></div>
         </div>
       </div>
-      <div class="carousel-item" data-bs-interval="2000">
+      <div class="carousel-item" data-bs-interval="1000">
         <img src="{{database[1].image}}" class="d-block w-100" alt="...">
         <div class="carousel-caption">
           <div class="content">
             <a routerLink="musicalinstrument">SHOP NOW <i class="bi bi-arrow-right"></i></a></div>
         </div>
       </div>
-      <div class="carousel-item"data-bs-interval="2000">
+      <div class="carousel-item"data-bs-interval="1000">
         <img src="{{database[2].image}}" class="d-block w-100" alt="...">
         <div class="carousel-caption">
           <div class="content">
             <a routerLink="musicalinstrument">SHOP NOW <i class="bi bi-arrow-right"></i></a></div>
         </div>
       </div>
-      <div class="carousel-item"data-bs-interval="2000">
+      <div class="carousel-item"data-bs-interval="1000">
         <img src="{{database[3].image}}" class="d-block w-100" alt="...">
         <div class="carousel-caption">
           <div class="content">
           <a routerLink="musicalinstrument">SHOP NOW <i class="bi bi-arrow-right"></i></a></div>
           </div>
+         
+        </div>
      </div>
     </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
+
+
 
   <div class="container mt-5 mb-5">
     <h1 class="text-center">how to get <span class="highlight">Instruments</span></h1>
