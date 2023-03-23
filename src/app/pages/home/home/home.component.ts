@@ -8,7 +8,7 @@ import { HeroService } from 'src/app/hero.service';
 export class HomeComponent{
   database=[
     {
-      "image":"https://images.unsplash.com/photo-1511379938547-c1f69419868d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "image":"https://pulsemusicals.com/wp-content/uploads/2014/10/bannerpic31.jpg",
         
     },
     {
