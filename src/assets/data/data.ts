@@ -32,47 +32,57 @@
       },
     {
         "id":"104",
-        "name":"Yamaha F280 Acoustic Guitar,",
+        "name":"Yamaha F280 Acoustic Guitar",
         "details":"Comfortable playability for beginners",
+        "description":"Yamaha’s goal has always been to elevate the experience of those who are learning with zeal and playing with passion, with the F280 becoming an iconic piece in this musical journey. This guitar is being put together wholly in the Yamaha Music India factory after multi-layered processes. Starting with research and scrutiny to optimise materials, accelerated environmental testing is done and then each completed instrument is inspected by trained professionals to ensure quality, estimate cost and its sustainability factor.A strong built for a talented beginner! Experiment with this acoustic guitar and bring your creativity to life. Easy to tune, effortless to play – this guitar is all you need for the beginning of your musical way!",
         "price":"₹7490 (icl. of all taxes)",
         "image1":"https://media.istockphoto.com/id/156547833/photo/acoustic-guitar.jpg?s=612x612&w=0&k=20&c=41dpTbgbk7Zp9EZ9W_llfbbXZDG3Ut1S9iuVSrmwGI4=",
-        "yvdo":""
+       "image2":"https://in.yamaha.com/en/files/feature1_c11ad8dd8bd75a28cad1e8988f8cc8cc.jpg",
+        "yvdo":"gwmGiTosdqY"
    
       },
     {
       "id":"105",
       "name":"Yamaha SHS-500",
       "details":"Sonogenetic keytars",
+      "description":"The SHS-500 features 30 instrument Voices that are essential to any kind of music genre, including synthesizers, guitars, basses, pianos, strings, and wind instruments. The expressive 37-key mini keyboard provides a premium feel and response for fast, accurate, and natural playing even when you are standing while performing.",
       "price":"₹15000 (icl. of all taxes)",
       "image1":"https://i.ebayimg.com/images/g/p5UAAOSw0aNhifm1/s-l500.jpg",
-      "yvdo":""
+      "image2":"https://i1.wp.com/www.guitarstore.in/wp-content/uploads/2021/05/Screen-Shot-2019-05-25-at-8.35.35-AM.png?fit=1279%2C558&ssl=1",
+      "yvdo":"kFASn4YK9cc"
     
     },
     {
       "id":"106",
       "name":"Brass Trumpet",
       "details":" Rust resistance, finely polished",
+      "description":"This trumpet is made of high-quality materials, the tone is correct, and the design is strong and durable. The trumpet has a light tone, high sound permeability and strong penetrating power. The trumpet is accurate and suitable for daily practice, party atmosphere, personal entertainment, concert performances, etc. for beginners or trumpet lovers.The sound and tone of the Bb trumpet are pure and bright, rich and powerful, with excellent vibration. It is also a user- friendly brass instrument suitable for beginners and students.The surface is bright and eye- catching with gold paint, bright and transparent, and excellent reflection. This small size must be the best choice for your beloved.The valve is durable and the spring rebounds quickly.",
       "price":"₹3500 (icl. of all taxes)",
       "image1":"https://4.imimg.com/data4/NG/EM/MY-35964099/musical-trumpet-500x500.jpg",
-      "yvdo":""
+      "image2":"https://upload.wikimedia.org/wikipedia/commons/1/12/Yamaha_Trumpet_YTR-8335LA_crop.jpg",
+      "yvdo":"CnptBTAJgsU"
     
     },
     {
       "id":"107",
       "name":"violin",
       "details":"Artic neo violin kit",
+      "description":"ARCTIC AR-PVK-01 Neo Violin Kit - Violin 4/4 with case, bow & Rosin",
       "price":"₹15000 (icl. of all taxes)",
       "image1":"https://media.istockphoto.com/id/465860348/photo/violin.jpg?s=612x612&w=0&k=20&c=v5yWQqpx2EOoCzekH0YLbndult_6Bn_bbDTJqf19qzo=",
-      "yvdo":""
+      "image2":"https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/violin-on-table-steve-somerville.jpg",
+      "yvdo":"mJvU4iCqsH8"
     
     },
     {
       "id":"108",
-      "name":"Grand piano",
+      "name":"Yamaha GB1k Grand piano",
       "details":" 88 key Grand piano",
+      "description":"Everyone wants a grand piano in their home, but they can be cost prohibitive. The Yamaha GB1K Grand Piano is the most affordable available instrument in the Yamaha line. Grand pianos also take up a lot of space; the GB1K is a popular choice for locations with limited space. This 5′ grand piano has a full, resonant tone comparable to larger pianos. Bring the concert hall to your home with the Yamaha GB1K Grand Piano.",
        "price":"₹95000 (icl. of all taxes)",
-       "image1":"https://media.istockphoto.com/id/688107124/photo/plan.jpg?s=612x612&w=0&k=20&c=mWkZtOttYxhIQLbGJbbTnfXGv2dxaTmezj6yorWzA6w=",
-       "yvdo":""
+       "image1":"https://musiekwereld.co.za/wp-content/uploads/2021/05/Yamaha-GB1K-Polished-Ebony-1.jpg",
+       "image2":"https://in.yamaha.com/en/files/gb1k_pc_size_banner_e8b158ce9f278bd9270c526f65d89db1.jpg?impolicy=resize&imwid=1420&imhei=569",     
+       "yvdo":"q2-ezOz1hsw"
     }
        
     
@@ -353,7 +363,7 @@ export const guitardata=[
     "name": "Squier Affinity Stratocaster Electric Guitar",
     "type": "guitar",
     "description": "Fender Squier Affinity Series Stratocaster Electric Guitar - Overview:<br><br>A superb gateway into the time-honored Fender family, the Squier Affinity Series Stratocaster delivers legendary design and quintessential tone for today’s aspiring guitar hero. This Strat features several player-friendly refinements such as a thin and lightweight body, a slim and comfortable “C”-shaped neck profile, a 2-point tremolo bridge for superior tremolo action and sealed die-cast tuning machines with split shafts for smooth, accurate tuning and easy restringing.",
-    "details": "Laurel FB, Race Red Body Shape: StratocasterBody Material: Alder,Body Finish: Polyurethane,Fretboard Radius: 9.5(241 mm) ",
+    "details": "Laurel FB, Race Red Body Shape: StratocasterBody Material: Alder ",
     "price": "₹35,368.74(incl. of all taxes)",
      "image1": "https://images.reverb.com/image/upload/s--ZelPMdI2--/f_auto,t_large/v1593610990/phndpmvvexigepkwqib4.jpg",
     "image2": "https://m.media-amazon.com/images/I/51hiZ7iGkiL._SL1000_.jpg",
@@ -377,7 +387,7 @@ export const guitardata=[
     "name": "Enya NexG Smart guitar Blue",
     "type": "guitar",
     "description": "The Enya NEXG is the world’s first smart audio guitar, combining a Bluetooth speaker, preamp, sound card, and onboard effects into a single instrument. A built-in tuner, vocal remover button, and a detachable outer frame round out this innovative guitar. NEXG is also one of the most comfortable guitars to play thanks to its radius fretboard and zero fret design. With modes of karaoke, silent playing, jamming, and digital output, Enya NEXG is designed to solve problems for all guitarists,from beginners to experts.",
-    "details": "NexG - Enya AI audio guitar Disassembled 38” silent guitar structure,High quality round end frets",
+    "details": "NexG - Enya AI audio guitar Disassembled 38” silent guitar structure.",
     "price": "₹90,000(incl. of all taxes)",
     "image1": "https://cdn.shopaccino.com/procraftindia/products/2-3-587407_l.jpg?v=447",
     "image2":"https://www.roar.com.my/wp-content/uploads/2022/03/Enya-NEXG-Smart-Audio-Guitar-Blue2.png",

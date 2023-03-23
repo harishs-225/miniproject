@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import {  digidata, drumdata, guitardata, keybddata, musicaldata, } from 'src/assets/data/data';
-// import { singledata } from 'src/assets/data/single';
+import {  digidata, drumdata, guitardata, keybddata, musicaldata } from 'src/assets/data/data';
+
 import { BehaviorSubject } from 'rxjs';
 
 
@@ -38,9 +38,7 @@ export class HeroService {
     return guitardata;
   }
 
-  // getKeyData() {
-  //   return singledata;
-  // }
+  
   
   
  

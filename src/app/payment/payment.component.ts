@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { HeroService } from '../hero.service';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-payment',
@@ -8,6 +9,12 @@ import { HeroService } from '../hero.service';
 })
 export class PaymentComponent {
 
+  data: any;
+
+  name: string = '';
+  cardnumber: string = '';
+  expiration: string = '';
+  cvv: string = '';
 
 single: any
   s: any
@@ -35,10 +42,20 @@ single: any
     this.single=this.hero.getguitarData();
     this.s= this.single.filter((e:{id: string | null})=> e.id === id);
   }
-  if(name==='music'){
+  if(name==='musicaldata'){
     this.single=this.hero.getmusicalData();
   }
-  this.vdoUrl = "https://www.youtube.com/embed/"
+  // this.vdoUrl = "https://www.youtube.com/embed/"
+}
+payNow() {
+  Swal.fire({
+    position: 'center',
+    icon: 'success',
+    title: 'Payment Done Successfully...',
+    background: '#212529',
+    showConfirmButton: false,
+    timer: 2000,
+  });
 }
 
 }
