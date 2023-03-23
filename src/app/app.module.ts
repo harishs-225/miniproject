@@ -14,9 +14,9 @@ import { SingleinstrumentComponent } from './pages/singleinstrument/singleinstru
 import { FooterComponent } from './pages/footer/footer.component';
 import { DrumsComponent } from './pages/drums/drums.component';
 import { KeyboardComponent } from './pages/keyboard/keyboard.component';
-// import { DigiatalpianoComponent } from './pages/digiatalpiano/digiatalpiano.component';
+ import { DigiatalpianoComponent } from './pages/digiatalpiano/digiatalpiano.component';
 import { GuitarComponent } from './pages/guitar/guitar.component';
-import { DigitalpianoComponent } from './pages/digitalpiano/digitalpiano.component';
+//import { DigitalpianoComponent } from './pages/digitalpiano/digitalpiano.component';
 import { SafePipe } from './safe.pipe';
 import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 import { environment } from '../environments/environment';
@@ -27,6 +27,8 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { PaymentComponent } from './payment/payment.component';
 import { FIREBASE_OPTIONS } from '@angular/fire/compat';
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
+import { VerifyemailComponent } from './pages/verifyemail/verifyemail.component';
+import { ForgotpswdComponent } from './pages/forgotpswd/forgotpswd.component';
 
 @NgModule({
   declarations: [
@@ -41,12 +43,14 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter';
     FooterComponent,
     DrumsComponent,
     KeyboardComponent,
-    // DigiatalpianoComponent,
+     DigiatalpianoComponent,
     GuitarComponent,
-    DigitalpianoComponent,
+    //DigitalpianoComponent,
     SafePipe,
     DashboardComponent,
     PaymentComponent,
+    VerifyemailComponent,
+    ForgotpswdComponent,
   ],
   imports: [
     BrowserModule,

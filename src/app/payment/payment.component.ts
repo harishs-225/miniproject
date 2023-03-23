@@ -35,7 +35,7 @@ single: any
     this.single=this.hero.getguitarData();
     this.s= this.single.filter((e:{id: string | null})=> e.id === id);
   }
-  if(name==='musicali'){
+  if(name==='music'){
     this.single=this.hero.getmusicalData();
   }
   this.vdoUrl = "https://www.youtube.com/embed/"

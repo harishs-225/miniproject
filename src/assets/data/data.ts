@@ -1,68 +1,78 @@
  export const musicaldata=[
     {
-        "id":"1",
+        "id":"101",
         "name":"Yamaha Psr-f51 Keyboard",
-        "type":"musicali",
-        "description":"",
+        
+        "description":"A starter keyboard for anyone who wants to enjoy playing music,Incredibly easy to use with its color-coded, intuitive control panel,Simply select a voice, choose a rhythm and start - it's as simple as 1-2-3.",
         "details":"Standard Portable Keyboards",
         "price":"₹15000 (icl. of all taxes)",
         "image1":"https://4.imimg.com/data4/UE/CI/MY-5779806/yamaha-psr-f51-keyboard-500x500.jpg",
-        "image2":""
+        "image2":"https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/810ftsVbDUL._SL1500_.jpg",
+        "yvdo":"eKAR5h3TTSw"
     },
     {
-        "id":"2",
-        "name":"Drums",
+        "id":"102",
+        "name":"Maxtone Drum Set 5 pc Black",
+        "description":"5PC DRUM SET W/CYMBALS & DRUM THRONE- Drums Assembled with Alum.Lugs - Alum. Bass Drum Bracket & Tom Tom Brackets- With Black Coating Parts & Stands",
         "details":"Maxtone Drum Set 5 pc Black",
         "price":"₹19999 (icl. of all taxes)",
         "image1":"https://cdn.shopify.com/s/files/1/1474/4396/products/MXC4009BK.jpg?v=1634086480",
-        "image2":""
+        "image2":"https://www.maxtone.com.tw/proimages/sr/products/01_DRUM/01-1_DRUM_SET/01-1-7_MXC-1005.jpg",
+        "yvdo":"_4pIm46AwKI"
     },
     {
-        "id":"3",
+        "id":"103",
         "name":"Donner DEP-45 Digital Piano",
+        "description":"The Donner DEP-45 has a full keyboard, with 88 keys, just like an acoustic piano. Another characteristic of the keyboard is whether it's weighted or not. This also has an important contribution to the realism of the experience. The DEP-45 has a semi-weighted keyboard.",
         "details":"Ultrathin with 1.6 Inch Piano Bench.",
-    
-        "price":"₹15999 (icl. of all taxes)",
-        "image1":"https://5.imimg.com/data5/SELLER/Default/2023/2/EB/ML/MM/185183902/s-l1600-37--500x500.jpg"
-    },
+          "price":"₹15999 (icl. of all taxes)",
+        "image1":"https://5.imimg.com/data5/SELLER/Default/2023/2/EB/ML/MM/185183902/s-l1600-37--500x500.jpg",
+        "image2":"https://images-cdn.ubuy.co.in/63a0933ba14d481c746ec4a2-donner-dep-45-digital-piano-ultrathin.jpg",
+        "yvdo":"R-aEI5c0dpE"
+      },
     {
-        "id":"4",
+        "id":"104",
         "name":"Yamaha F280 Acoustic Guitar,",
         "details":"Comfortable playability for beginners",
         "price":"₹7490 (icl. of all taxes)",
-        "image1":"https://media.istockphoto.com/id/156547833/photo/acoustic-guitar.jpg?s=612x612&w=0&k=20&c=41dpTbgbk7Zp9EZ9W_llfbbXZDG3Ut1S9iuVSrmwGI4="
-    },
+        "image1":"https://media.istockphoto.com/id/156547833/photo/acoustic-guitar.jpg?s=612x612&w=0&k=20&c=41dpTbgbk7Zp9EZ9W_llfbbXZDG3Ut1S9iuVSrmwGI4=",
+        "yvdo":""
+   
+      },
     {
-      "id":"5",
+      "id":"105",
       "name":"Yamaha SHS-500",
       "details":"Sonogenetic keytars",
       "price":"₹15000 (icl. of all taxes)",
-      "image1":"https://i.ebayimg.com/images/g/p5UAAOSw0aNhifm1/s-l500.jpg"
+      "image1":"https://i.ebayimg.com/images/g/p5UAAOSw0aNhifm1/s-l500.jpg",
+      "yvdo":""
     
     },
     {
-      "id":"6",
+      "id":"106",
       "name":"Brass Trumpet",
       "details":" Rust resistance, finely polished",
       "price":"₹3500 (icl. of all taxes)",
       "image1":"https://4.imimg.com/data4/NG/EM/MY-35964099/musical-trumpet-500x500.jpg",
+      "yvdo":""
     
     },
     {
-      "id":"7",
+      "id":"107",
       "name":"violin",
       "details":"Artic neo violin kit",
       "price":"₹15000 (icl. of all taxes)",
       "image1":"https://media.istockphoto.com/id/465860348/photo/violin.jpg?s=612x612&w=0&k=20&c=v5yWQqpx2EOoCzekH0YLbndult_6Bn_bbDTJqf19qzo=",
-    
+      "yvdo":""
     
     },
     {
-      "id":"8",
+      "id":"108",
       "name":"Grand piano",
       "details":" 88 key Grand piano",
        "price":"₹95000 (icl. of all taxes)",
-       "image1":"https://media.istockphoto.com/id/688107124/photo/plan.jpg?s=612x612&w=0&k=20&c=mWkZtOttYxhIQLbGJbbTnfXGv2dxaTmezj6yorWzA6w="
+       "image1":"https://media.istockphoto.com/id/688107124/photo/plan.jpg?s=612x612&w=0&k=20&c=mWkZtOttYxhIQLbGJbbTnfXGv2dxaTmezj6yorWzA6w=",
+       "yvdo":""
     }
        
     
@@ -401,4 +411,3 @@ export const guitardata=[
   }
 ]
  
-

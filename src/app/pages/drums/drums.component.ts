@@ -14,6 +14,10 @@ export class DrumsComponent {
  
   ngOnInit():void {
     this.drumdata=this.hero.getdrumData()
+    this.hero.search.subscribe(sData => {
+      // console.log(sData);
+      this.searchText = sData
+    })
     
   }
 

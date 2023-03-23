@@ -4,9 +4,11 @@ import {
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
   signOut,
+  sendPasswordResetEmail,
+  sendEmailVerification
 } from '@angular/fire/auth';
 
-import { doc, Firestore, setDoc, getDoc} from '@angular/fire/firestore';
+import { doc, Firestore, setDoc, getDoc, addDoc, collection} from '@angular/fire/firestore';
 import { BehaviorSubject } from 'rxjs';
 
 import Swal from 'sweetalert2';
@@ -128,10 +130,73 @@ export class AuthService {
           showConfirmButton: false,
           timer: 2000,
         });
-
-        this.router.navigate(['keyboard']);
+         this.router.navigate(['keyboard']);
       }
     );
   }
+
+  forgotPassword(email: string) {
+          sendPasswordResetEmail(this.auth, email).then(
+            () => {
+              this.router.navigate(['verifyemail']);
+            },
+            (err) => {
+              Swal.fire({
+                position: 'center',
+                icon: 'success',
+                title: 'Something went wrong ' + err,
+                background: '#212529',
+                showConfirmButton: false,
+                timer: 2000,
+              });
+              this.router.navigate(['forgotpassword']);
+            }
+          );
+        }
+
+        sendEmailForVerification(user: any) {
+          sendEmailVerification(user).then(
+            () => {
+              this.router.navigate(['verifyemail']);
+            },
+            (err) => {
+              Swal.fire({
+                position: 'center',
+                icon: 'success',
+                title: 'Something went wrong ' + err,
+                background: '#212529',
+                showConfirmButton: false,
+                timer: 2000,
+              });
+            }
+          );
+        }
+
+        contactus(email:string, comments:string){
+          let data={
+            email:email,
+            comments:comments
+          }
+          const docRef = collection(this.firestore, 'contactus')
+          addDoc(docRef, data)
+          .then(() => {
+            console.log('Data added successfully');
+            Swal.fire({
+              position: 'center',
+              icon: 'success',
+              title: 'Message send successfully...',
+              background: '#212529',
+              showConfirmButton: false,
+              timer: 2000,
+            });
+          })
+          .catch((err) => {
+            
+            console.log(err);
+          });
+
+        }
+       
+        
    
 }

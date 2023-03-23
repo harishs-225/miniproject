@@ -36,10 +36,42 @@ export class SingleinstrumentComponent {
     this.single=this.hero.getguitarData();
     this.s= this.single.filter((e:{id: string | null})=> e.id === id);
   }
-  if(name==='musicali'){
-    this.single=this.hero.getmusicalData1();
-    this.s= this.single.filter((e:{id: string | null})=> e.id === id);
+  // if(name==='music'){
+  //   this.single=this.hero.getmusicalData1();
+  //   this.s= this.single.filter((e:{id: string | null})=> e.id === id);
 
+  // }
+  if(id==='101'){
+    this.single=this.hero.getmusicalData();
+    this.s = this.single.filter((e:any)=> e.id === id)
+  }
+  if(id==='102'){
+    this.single=this.hero.getmusicalData();
+    this.s = this.single.filter((e:any)=> e.id === id)
+  }
+  if(id==='103'){
+    this.single=this.hero.getmusicalData();
+    this.s = this.single.filter((e:any)=> e.id === id)
+  }
+  if(id==='104'){
+    this.single=this.hero.getmusicalData();
+    this.s = this.single.filter((e:any)=> e.id === id)
+  }
+  if(id==='105'){
+    this.single=this.hero.getmusicalData();
+    this.s = this.single.filter((e:any)=> e.id === id)
+  }
+  if(id==='106'){
+    this.single=this.hero.getmusicalData();
+    this.s = this.single.filter((e:any)=> e.id === id)
+  }
+  if(id==='107'){
+    this.single=this.hero.getmusicalData();
+    this.s = this.single.filter((e:any)=> e.id === id)
+  }
+  if(id==='108'){
+    this.single=this.hero.getmusicalData();
+    this.s = this.single.filter((e:any)=> e.id === id)
   }
   this.vdoUrl = "https://www.youtube.com/embed/"
 }

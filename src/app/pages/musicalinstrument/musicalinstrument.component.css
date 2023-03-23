@@ -12,3 +12,6 @@
     padding-bottom: 2.5rem;
     
 }
+.container-fluid{
+    background-size: cover;
+}
